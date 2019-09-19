@@ -42,3 +42,29 @@ GET /easy/http/ HTTP/1.1
 <p>The document has moved <a href="https://www.jmarshall.com/easy/http/">here</a>.</p>
 </body></html>
 * Connection #0 to host www.jmarshall.com left intact
+
+## Querying www.duckduckgo.com ##
+ GET / HTTP/1.1
+> Host: www.duckduckgo.com
+> User-Agent: curl/7.64.0
+> Accept: */*
+>
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Thu, 19 Sep 2019 12:48:16 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Connection: keep-alive
+< Location: https://duckduckgo.com/
+< Strict-Transport-Security: max-age=31536000
+< Expires: Fri, 18 Sep 2020 12:48:16 GMT
+< Cache-Control: max-age=31536000
+<
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+* Connection #0 to host www.duckduckgo.com left intact
