@@ -1,7 +1,7 @@
 
 # DataRep-Lab2
 
-## Querying odetocode.com/odeteocode.jpg ##
+## Querying odetocode.com/odeteocode.jpg// ##
 C:\Users\G00327095\Desktop\Data Reprenstation and Querying>curl -v https://odetocode.com/odetocode.
 > GET /odetocode.jpg HTTP/1.1
 > Host: odetocode.com
@@ -19,7 +19,7 @@ C:\Users\G00327095\Desktop\Data Reprenstation and Querying>curl -v https://odeto
 < Date: Thu, 19 Sep 2019 12:31:52 GMT
 
 
-## Querying jsmarshall.com ##
+## Querying jsmarshall.com// ##
 C:\Users\G00327095\Desktop\Data Reprenstation and Querying>curl -v http://www.jmarshall.com/easy/http/
 
 GET /easy/http/ HTTP/1.1
@@ -42,7 +42,6 @@ GET /easy/http/ HTTP/1.1
 <p>The document has moved <a href="https://www.jmarshall.com/easy/http/">here</a>.</p>
 </body></html>
 * Connection #0 to host www.jmarshall.com left intact
-
 
 ## Querying www.duckduckgo.com ##
  GET / HTTP/1.1
