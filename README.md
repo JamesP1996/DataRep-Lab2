@@ -68,12 +68,11 @@ GET /easy/http/ HTTP/1.1
 </body>
 </html>
 * Connection #0 to host www.duckduckgo.com left intact
-<<<<<<< HEAD
 
 
-## Querying Science On DuckDuckGo.com ##
+## Querying Science/computer-science On DuckDuckGo.com ##
 
-curl -o science.txt https://duckduckgo.com/?q=gmit&t=h_&ia=web
+curl -o science.txt https://duckduckgo.com/?q=science&t=h_&ia=web
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 12832    0 12832    0     0   208k      0 --:--:-- --:--:-- --:--:--  208k
@@ -81,5 +80,12 @@ curl -o science.txt https://duckduckgo.com/?q=gmit&t=h_&ia=web
 operable program or batch file.
 'ia' is not recognized as an internal or external command,
 operable program or batch file.
-=======
->>>>>>> 8bdecf659e29e86331c94be64aa4cccb74ed86a2
+
+curl -o computer-science.txt https://duckduckgo.com/?q=computer-science&t=h_&ia=web
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14626    0 14626    0     0   117k      0 --:--:-- --:--:-- --:--:--  117k
+'t' is not recognized as an internal or external command,
+operable program or batch file.
+'ia' is not recognized as an internal or external command,
+operable program or batch file.
