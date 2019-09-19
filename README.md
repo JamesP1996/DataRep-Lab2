@@ -89,3 +89,12 @@ curl -o computer-science.txt https://duckduckgo.com/?q=computer-science&t=h_&ia=
 operable program or batch file.
 'ia' is not recognized as an internal or external command,
 operable program or batch file.
+
+
+## Saving Duck Duck Go GMIT - Json to Json File ##
+
+C:\Users\G00327095\Desktop\Data Reprenstation and Querying>curl -o gmit.json https://duckduckgo.com/?q=gmit&format=json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12832    0 12832    0     0  78723      0 --:--:-- --:--:-- --:--:-- 78723
+Invalid drive specification.
